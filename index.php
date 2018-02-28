@@ -8,7 +8,7 @@ include "functions.php";
         <tittle>Silverjack Card Game</tittle>
         <meta charset='utf-8'>
         <style>
-            @import url("styles.css");
+            @import url("css/styles.css");
         </style>
         <meta name='viewport' content = 'width=device-width, initial-scale = 1.0'>
     </head>
@@ -19,7 +19,11 @@ include "functions.php";
         <div class= "container">
             <?php
             
-            //makeDeck()  done by: John Economides
+            
+            
+            play();
+            
+            /*//makeDeck()  done by: John Economides
                 
                
                 $players = array();  //make array of players
@@ -42,11 +46,11 @@ include "functions.php";
             
             shuffle($players);
                    
-            for ($i = 1; $i <= 4; $i++) {
+            for ($i = 1; $i <= 4; $i++) { //player display
                 echo "<hr>";
                 $player = array_pop($players);
                 echo "<img class=\"players\" src=\"players/$player.png\">";
-            }
+            } */
             ?>
         </div>
         
